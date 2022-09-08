@@ -1,0 +1,16 @@
+.adminPanel {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 50rem;
+  background-color: bisque;
+}
+
+.matchRegister form {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchRegister form input {
+  padding: 5px;
+  text-align: center;
+}

@@ -1,0 +1,96 @@
+.playWindow {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.nameAndDate {
+  display: flex;
+  justify-content: center;
+}
+
+.match {
+  display: flex;
+  flex-direction: row;
+  /* background-color: bisque; */
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 22px 23px 3px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 22px 23px 3px rgba(0, 0, 0, 0.54);
+}
+
+.teamInfo {
+  padding: 15px 35px 15px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.teamName {
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.teamInfo img {
+  width: 12rem;
+  height: 12rem;
+}
+
+/* ///////////////// */
+.scores {
+  display: flex;
+  flex-direction: row;
+}
+
+.versus img {
+  width: 5rem;
+}
+
+.scoresNumbers {
+  font-size: 8rem;
+  font-family: "Comic Neue", cursive;
+}
+
+/* /////////////////// */
+
+.allMatches {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 70%;
+}
+
+table img {
+  width: 2rem;
+}
+
+.endedMatchesTable {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 50rem;
+}
+
+table.customTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 0.1rem;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  font-weight: bold;
+}
+
+table.customTable td,
+table.customTable th {
+  border-width: 0.1rem;
+  border-color: #000000;
+  border-style: solid;
+  padding: 0.5rem;
+}
+
+.singleTeamTable {
+  align-items: center;
+}
+
+table.customTable thead {
+  background-color: #76fe8a;
+}
